@@ -1,0 +1,11 @@
+Controls: WASD or Arrow keys to move character, mouse to aim and left click to shoot.
+
+Goal: Defeat all enemies in combat room, solve puzzle of puzzle room.
+
+After your playtest, consider the below questions when reviewing:
+
+Are there any moments as you played where you had confusion on what to do in regard to basic combat and puzzle mechanics?
+
+Is the game balanced enough in regards to the combat being a bullet hell, and the puzzles being intuitive and completable with sufficient effort?
+
+Any parts of the game that required more visual or further direct guidance?

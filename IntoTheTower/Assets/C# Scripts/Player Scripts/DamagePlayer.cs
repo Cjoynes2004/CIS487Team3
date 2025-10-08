@@ -22,7 +22,7 @@ public class DamagePlayer : MonoBehaviour
     {
         playerHealth -= dmg;
         GameObject temp = healthbar.transform.parent.gameObject;
-        if (healthbar.CompareTag("Healthbar"))
+        if (temp.CompareTag("Healthbar"))
         {
             Destroy(healthbar);
             healthbar = temp;
