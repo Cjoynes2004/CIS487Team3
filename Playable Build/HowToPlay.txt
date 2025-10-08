@@ -2,6 +2,8 @@ Controls: WASD or Arrow keys to move character, mouse to aim and left click to s
 
 Goal: Defeat all enemies in combat room, solve puzzle of puzzle room.
 
+Music Provided by: Inari Tofu (https://www.youtube.com/watch?v=FNz_wnrowK0) as Copyright Free
+
 After your playtest, consider the below questions when reviewing:
 
 Are there any moments as you played where you had confusion on what to do in regard to basic combat and puzzle mechanics?

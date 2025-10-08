@@ -17,7 +17,7 @@ public class EnemyManager : MonoBehaviour //Eventually make an AbstractManager t
     // Update is called once per frame
     void Update()
     {
-        if (enemies.Count == 0 && !levelOver)
+        if (enemies.Count <= 0 && !levelOver)
         {
             levelManager.GetNextLevel();
             levelOver = true;

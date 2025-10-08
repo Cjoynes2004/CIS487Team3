@@ -8,6 +8,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
     public GameObject bullet;
     public float reticleDistance;
     public float bulletSpeed;
+    public SoundManager sfx;
 
     private Vector2 mousePos;
     private Vector2 playerPos;
@@ -58,6 +59,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
             {
                 rb.linearVelocity = direction * bulletSpeed;
             }
+            sfx.PlaySound();
         }
     }
 }
