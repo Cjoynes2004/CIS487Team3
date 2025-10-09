@@ -10,23 +10,29 @@ public class LevelChange : MonoBehaviour
     public GameObject endGameScreen;
 
     private List<Vector2> levelCoord;
-
-    private string combatPath = "Assets/Resources/LevelCoordCombat.txt";
-    private string puzzlePath = "Assets/Resources/LevelCoordPuzzle.txt";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         levelCoord = new List<Vector2>();
-        CreateCoord(combatPath);
-        CreateCoord(puzzlePath);
+        CreateCoord("LevelCoordCombat");
+        CreateCoord("LevelCoordPuzzle");
         GetNextLevel();
     }
 
-    private void CreateCoord(string filePath)
+    private void CreateCoord(string resourceName)
     {
-        foreach (string line in File.ReadAllLines(filePath))
+        TextAsset textFile = Resources.Load<TextAsset>(resourceName);
+        if (textFile == null)
         {
-            string[] parts = line.Split(',');
+            Debug.LogError("Missing resource file: " + resourceName);
+            return;
+        }
+
+        string[] lines = textFile.text.Split('\n');
+        foreach (string line in lines)
+        {
+            if (string.IsNullOrWhiteSpace(line)) continue;
+            string[] parts = line.Trim().Split(',');
             float x = float.Parse(parts[0]);
             float y = float.Parse(parts[1]);
             levelCoord.Add(new Vector2(x, y));
