@@ -62,15 +62,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\C# Scripts\Level Scripts\LevelChange.cs" />
+    <Compile Include="Assets\C# Scripts\Misc Scripts\ExitGame.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\BounceOffWalls.cs" />
     <Compile Include="Assets\C# Scripts\Misc Scripts\SoundManager.cs" />
     <Compile Include="Assets\C# Scripts\Puzzle Scripts\ColorManager.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\PlayerShoot.cs" />
+    <Compile Include="Assets\C# Scripts\Player Scripts\HealthPlayer.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\PlayerBullets.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\EnemyManager.cs" />
     <Compile Include="Assets\C# Scripts\Misc Scripts\MusicManager.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\AbstractEnemy.cs" />
-    <Compile Include="Assets\C# Scripts\Player Scripts\DamagePlayer.cs" />
     <Compile Include="Assets\C# Scripts\Puzzle Scripts\MatchColors.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\MovePlayer.cs" />
   </ItemGroup>

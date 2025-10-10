@@ -4,17 +4,17 @@ using UnityEngine.EventSystems;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    public Transform aim;
-    public GameObject bullet;
-    public float reticleDistance;
-    public float bulletSpeed;
-    public SoundManager sfx;
+    public Transform aim;   //Position of the aiming reticle as Unity Object
+    public GameObject bullet;   //bullet that player shoots
+    public float reticleDistance;   //distance of reticle from player
+    public float bulletSpeed;   //Speed of the player
+    public SoundManager sfx;    //Sound effect of the bullet when shot
 
-    private Vector2 mousePos;
-    private Vector2 playerPos;
-    private Vector2 reticlePos;
-    private bool onLeftClick;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Vector2 mousePos;   //Position of mouse on screen
+    private Vector2 playerPos;  //Player's position
+    private Vector2 reticlePos; //Position of the reticle in code
+    private bool onLeftClick; //Is true when player clicks mouse
+    // Start is called once before the first execution of Update after the MonoBehaviour is created, adjusts aim
     void Start()
     {
         AimAdjust();

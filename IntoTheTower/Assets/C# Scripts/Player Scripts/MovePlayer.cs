@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour
 {
-    public float playerSpeed;
-    public bool canMove = true;
+    public float playerSpeed; // Speed of the player
+    public bool canMove = true; // Determines whether player can move or shoot
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

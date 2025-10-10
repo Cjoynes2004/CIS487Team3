@@ -6,12 +6,12 @@ using UnityEngine;
 
 public class LevelChange : MonoBehaviour
 {
-    public GameObject player;
-    public GameObject endGameScreen;
+    public GameObject player; //Player in scene
+    public GameObject endGameScreen; //Temporary, will eventually be a cutscene or some sort of different scene - TO DO
 
-    private List<Vector2> levelCoord;
+    private List<Vector2> levelCoord; // List of all levelCoords based off of what the player has chosen
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    void Start() // To add if statements so it can be combat or puzzle or both - TO DO
     {
         levelCoord = new List<Vector2>();
         CreateCoord("LevelCoordCombat");
@@ -19,6 +19,7 @@ public class LevelChange : MonoBehaviour
         GetNextLevel();
     }
 
+    //Creates Level Coordinates for given .txt file 
     private void CreateCoord(string resourceName)
     {
         TextAsset textFile = Resources.Load<TextAsset>(resourceName);
@@ -45,6 +46,7 @@ public class LevelChange : MonoBehaviour
         
     }
 
+    //Gets next level or ends game if no levels left
     public void GetNextLevel()
     {
         if (levelCoord.Count > 0)

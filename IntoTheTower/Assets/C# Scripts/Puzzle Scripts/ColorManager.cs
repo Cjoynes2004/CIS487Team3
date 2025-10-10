@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class ColorManager : MonoBehaviour //Eventually make an AbstractManager to derive all managers from
 {
-    public List<MatchColors> colors = new List<MatchColors>();
-    public LevelChange levelManager;
+    public List<MatchColors> colors = new List<MatchColors>(); //List of colors that will be matched
+    public LevelChange levelManager; //The level manager of the game
 
-    private bool levelOver = false;
+    private bool levelOver = false; // Returns true when room is over.
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -23,11 +23,13 @@ public class ColorManager : MonoBehaviour //Eventually make an AbstractManager t
         }
     }
 
+    //Adds color to list
     public void AddColor(MatchColors color)
     {
         colors.Add(color);
     }
 
+    //Removes color from list
     public void RemoveColor(MatchColors color)
     {
         colors.Remove(color);
