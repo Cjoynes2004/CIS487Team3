@@ -64,7 +64,11 @@
     <Compile Include="Assets\C# Scripts\Level Scripts\LevelChange.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\BounceOffWalls.cs" />
     <Compile Include="Assets\C# Scripts\Misc Scripts\SoundManager.cs" />
+    <Compile Include="Assets\C# Scripts\Enemy Scripts\LongRange.cs" />
+    <Compile Include="Assets\C# Scripts\Enemy Scripts\BossEnemy.cs" />
     <Compile Include="Assets\C# Scripts\Puzzle Scripts\ColorManager.cs" />
+    <Compile Include="Assets\C# Scripts\Enemy Scripts\CloseRange.cs" />
+    <Compile Include="Assets\C# Scripts\Enemy Scripts\EnemyBullet.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\PlayerBullets.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\EnemyManager.cs" />
