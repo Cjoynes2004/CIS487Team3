@@ -5,8 +5,7 @@ using UnityEngine;
 public class EnemyManager : MonoBehaviour //Eventually make an AbstractManager to derive all managers from - TO DO
 {
     public List<AbstractEnemy> enemies = new List<AbstractEnemy>(); //List of enemies in room
-    public LevelChange levelManager; //The level manager
-
+    public TrapdoorBehavior trapdoor;
     private bool levelOver = false; // Turns true when room is over
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,7 +18,7 @@ public class EnemyManager : MonoBehaviour //Eventually make an AbstractManager t
     {
         if (enemies.Count <= 0 && !levelOver)
         {
-            levelManager.GetNextLevel();
+            trapdoor.isOpen = true;
             levelOver = true;
         }
     }

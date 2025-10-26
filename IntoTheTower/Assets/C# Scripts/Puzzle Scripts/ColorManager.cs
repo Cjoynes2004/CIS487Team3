@@ -4,7 +4,7 @@ using UnityEngine;
 public class ColorManager : MonoBehaviour //Eventually make an AbstractManager to derive all managers from
 {
     public List<MatchColors> colors = new List<MatchColors>(); //List of colors that will be matched
-    public LevelChange levelManager; //The level manager of the game
+    public TrapdoorBehavior trapdoor; //Trapdoor for this room
 
     private bool levelOver = false; // Returns true when room is over.
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -18,7 +18,7 @@ public class ColorManager : MonoBehaviour //Eventually make an AbstractManager t
     {
         if (colors.Count == 0 && !levelOver)
         {
-            levelManager.GetNextLevel();
+            trapdoor.isOpen = true;
             levelOver = true;
         }
     }

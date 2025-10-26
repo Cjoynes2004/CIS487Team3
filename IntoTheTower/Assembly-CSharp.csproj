@@ -69,6 +69,7 @@
     <Compile Include="Assets\C# Scripts\Player Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\HealthPlayer.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\PlayerBullets.cs" />
+    <Compile Include="Assets\C# Scripts\Level Scripts\TrapdoorBehavior.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\EnemyManager.cs" />
     <Compile Include="Assets\C# Scripts\Misc Scripts\MusicManager.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\AbstractEnemy.cs" />
