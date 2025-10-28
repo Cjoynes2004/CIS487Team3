@@ -69,35 +69,36 @@ public class CloseRange : AbstractEnemy
     //Handles enemy launch and windup
     private IEnumerator LaunchAtPlayer()
     {
-        if (collided) { 
-            inLaunch = true;
+        inLaunch = true;
 
-            Vector2 startPos = transform.position;
-            float shakeEnd = Time.time + launchTimeWindUp;
+        Vector2 startPos = transform.position;
+        float shakeEnd = Time.time + launchTimeWindUp;
 
-            while (Time.time < shakeEnd)
-            {
-                Vector3 shakeOffSet = new Vector2(Random.Range(-0.1f, 0.1f),
-                    Random.Range(-0.1f, 0.1f));
-                rb.MovePosition(startPos + (Vector2)shakeOffSet);
-                yield return null;
-            }
-
-            rb.MovePosition(startPos);
-
-            Vector2 direction = (player.position - transform.position).normalized;
-            float startTime = Time.time;
-
-            while (Time.time < startTime + launchDuration)
-            {
-                //Debug.Log("Launching");
-                rb.MovePosition(rb.position + direction * enemyLaunchSpeed * Time.deltaTime);
-                yield return new WaitForFixedUpdate();
-            }
-
-            inLaunch = false;
+        while (Time.time < shakeEnd)
+        {
+             Vector3 shakeOffSet = new Vector2(Random.Range(-0.1f, 0.1f),
+             Random.Range(-0.1f, 0.1f));
+             rb.MovePosition(startPos + (Vector2)shakeOffSet);
+             yield return null;
         }
-        collided = false;
+
+        rb.MovePosition(startPos);
+
+        Vector2 direction = (player.position - transform.position).normalized;
+        float startTime = Time.time;
+
+        while (Time.time < startTime + launchDuration)
+        {
+            if (collided) {
+                collided = false;
+                break;
+                
+            }
+            rb.MovePosition(rb.position + direction * enemyLaunchSpeed * Time.deltaTime);
+            yield return new WaitForFixedUpdate();
+        }
+
+        inLaunch = false;
     }
 
     //Simple following of player, Linear movement
