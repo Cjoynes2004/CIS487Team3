@@ -15,9 +15,10 @@ public class CloseRange : AbstractEnemy
     public int randomMin;
     public int randomMax;
 
-    private int enemyHealth = 3;
+    public int enemyHealth;
     private Transform player;
     private float nextLaunch;
+    private bool collided;
     private bool inLaunch = false;
     private Rigidbody2D rb;
     private Vector3 orginalPosition;
@@ -43,6 +44,7 @@ public class CloseRange : AbstractEnemy
         {
             player.PlayerHurt(1);
         }
+        collided = true;
     }
 
     // Update is called once per frame, if in launch moves on, if not, sends to launch or follow
@@ -67,32 +69,35 @@ public class CloseRange : AbstractEnemy
     //Handles enemy launch and windup
     private IEnumerator LaunchAtPlayer()
     {
-        inLaunch = true;
+        if (collided) { 
+            inLaunch = true;
 
-        Vector2 startPos = transform.position;
-        float shakeEnd = Time.time + launchTimeWindUp;
+            Vector2 startPos = transform.position;
+            float shakeEnd = Time.time + launchTimeWindUp;
 
-        while(Time.time < shakeEnd)
-        {
-            Vector3 shakeOffSet = new Vector2(Random.Range(-0.1f, 0.1f), 
-                Random.Range(-0.1f, 0.1f));
-            rb.MovePosition(startPos + (Vector2)shakeOffSet);
-            yield return null;
+            while (Time.time < shakeEnd)
+            {
+                Vector3 shakeOffSet = new Vector2(Random.Range(-0.1f, 0.1f),
+                    Random.Range(-0.1f, 0.1f));
+                rb.MovePosition(startPos + (Vector2)shakeOffSet);
+                yield return null;
+            }
+
+            rb.MovePosition(startPos);
+
+            Vector2 direction = (player.position - transform.position).normalized;
+            float startTime = Time.time;
+
+            while (Time.time < startTime + launchDuration)
+            {
+                //Debug.Log("Launching");
+                rb.MovePosition(rb.position + direction * enemyLaunchSpeed * Time.deltaTime);
+                yield return new WaitForFixedUpdate();
+            }
+
+            inLaunch = false;
         }
-
-        rb.MovePosition(startPos);
-
-        Vector2 direction = (player.position - transform.position).normalized;
-        float startTime = Time.time;
-
-        while (Time.time < startTime + launchDuration) 
-        {
-            //Debug.Log("Launching");
-            rb.MovePosition(rb.position + direction * enemyLaunchSpeed * Time.deltaTime);
-            yield return new WaitForFixedUpdate();
-        }
-
-        inLaunch = false;
+        collided = false;
     }
 
     //Simple following of player, Linear movement

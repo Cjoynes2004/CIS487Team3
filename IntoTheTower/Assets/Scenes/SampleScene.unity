@@ -6046,6 +6046,7 @@ MonoBehaviour:
   launchTimeShake: 0.1
   randomMin: 3
   randomMax: 5
+  enemyHealth: 3
 --- !u!212 &941416924
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6973,6 +6974,7 @@ MonoBehaviour:
   launchTimeShake: 0.1
   randomMin: 3
   randomMax: 5
+  enemyHealth: 3
 --- !u!212 &1121800943
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7968,6 +7970,7 @@ MonoBehaviour:
   launchTimeShake: 0.1
   randomMin: 3
   randomMax: 5
+  enemyHealth: 15
 --- !u!114 &1261860877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8618,6 +8621,7 @@ MonoBehaviour:
   launchTimeShake: 0.1
   randomMin: 3
   randomMax: 5
+  enemyHealth: 3
 --- !u!212 &1436640027
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10813,6 +10817,7 @@ MonoBehaviour:
   launchTimeShake: 0.1
   randomMin: 3
   randomMax: 5
+  enemyHealth: 3
 --- !u!212 &2021395666
 SpriteRenderer:
   m_ObjectHideFlags: 0
