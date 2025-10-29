@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class DamagePlayer : MonoBehaviour
+public class HealthPlayer: MonoBehaviour
 {
-    public GameObject healthbar;
-    public GameObject gameover;
-    public int playerHealth;
+    public GameObject healthbar; //Healthbar of player, will be replaced by parent objects
+    public GameObject gameover; //gameover text, will eventaully be a canvas to restart or go to menu scene - TO DO
+    public int playerHealth; //Health of the player
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,7 +17,7 @@ public class DamagePlayer : MonoBehaviour
     {
         
     }
-
+    //Damages Player, replaces child heart with parent heart and erases child
     public void PlayerHurt(int dmg)
     {
         playerHealth -= dmg;
@@ -33,5 +33,10 @@ public class DamagePlayer : MonoBehaviour
             player.canMove = false;
             gameover.gameObject.SetActive(true);
         }
+    }
+
+    public void PlayerHeal(int heal)
+    {
+        //To be implemented - TO DO
     }
 }

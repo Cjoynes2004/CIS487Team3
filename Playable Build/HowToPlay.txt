@@ -1,4 +1,4 @@
-Controls: WASD or Arrow keys to move character, mouse to aim and left click to shoot.
+Controls: WASD or Arrow keys to move character, mouse to aim and left click to shoot, ESC key exits out of the game.
 
 Goal: Defeat all enemies in combat room, solve puzzle of puzzle room.
 

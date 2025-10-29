@@ -11,7 +11,6 @@ public class CloseRange : AbstractEnemy
     public float launchInterval;
     public float launchDuration;
     public float launchTimeWindUp;
-    public float launchTimeShake;
     public int randomMin;
     public int randomMax;
 
@@ -39,7 +38,7 @@ public class CloseRange : AbstractEnemy
 
     protected override void OnCollisionEnter2D(Collision2D collision)
     {
-        DamagePlayer player = collision.gameObject.GetComponent<DamagePlayer>();
+        HealthPlayer player = collision.gameObject.GetComponent<HealthPlayer>();
         if (player != null)
         {
             player.PlayerHurt(1);

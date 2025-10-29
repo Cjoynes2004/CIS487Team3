@@ -36,7 +36,7 @@ public class EnemyBullet : MonoBehaviour
 
         if (isPlayer)
         {
-            DamagePlayer damagePlayer = collision.gameObject.GetComponent<DamagePlayer>();
+            HealthPlayer damagePlayer = collision.gameObject.GetComponent<HealthPlayer>();
             damagePlayer.PlayerHurt(1);
 
             Destroy(gameObject);

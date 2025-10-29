@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class ColorManager : MonoBehaviour //Eventually make an AbstractManager to derive all managers from
 {
-    public List<MatchColors> colors = new List<MatchColors>();
-    public LevelChange levelManager;
+    public List<MatchColors> colors = new List<MatchColors>(); //List of colors that will be matched
+    public TrapdoorBehavior trapdoor; //Trapdoor for this room
 
-    private bool levelOver = false;
+    private bool levelOver = false; // Returns true when room is over.
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,16 +18,25 @@ public class ColorManager : MonoBehaviour //Eventually make an AbstractManager t
     {
         if (colors.Count == 0 && !levelOver)
         {
-            levelManager.GetNextLevel();
+            for (int i = 0; i < trapdoor.openFlags.Count; i++)
+            {
+                if (!trapdoor.openFlags[i])
+                {
+                    trapdoor.openFlags[i] = true;
+                    break;
+                }
+            }
             levelOver = true;
         }
     }
 
+    //Adds color to list
     public void AddColor(MatchColors color)
     {
         colors.Add(color);
     }
 
+    //Removes color from list
     public void RemoveColor(MatchColors color)
     {
         colors.Remove(color);
