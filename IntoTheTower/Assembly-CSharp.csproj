@@ -65,10 +65,13 @@
     <Compile Include="Assets\C# Scripts\Misc Scripts\ExitGame.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\BounceOffWalls.cs" />
     <Compile Include="Assets\C# Scripts\Misc Scripts\SoundManager.cs" />
+    <Compile Include="Assets\C# Scripts\Puzzle Scripts\ReflectSurface.cs" />
     <Compile Include="Assets\C# Scripts\Puzzle Scripts\ColorManager.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\PlayerShoot.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\HealthPlayer.cs" />
     <Compile Include="Assets\C# Scripts\Player Scripts\PlayerBullets.cs" />
+    <Compile Include="Assets\C# Scripts\Puzzle Scripts\buttonScript.cs" />
+    <Compile Include="Assets\C# Scripts\Puzzle Scripts\movingBoxCollision.cs" />
     <Compile Include="Assets\C# Scripts\Level Scripts\TrapdoorBehavior.cs" />
     <Compile Include="Assets\C# Scripts\Enemy Scripts\EnemyManager.cs" />
     <Compile Include="Assets\C# Scripts\Misc Scripts\MusicManager.cs" />

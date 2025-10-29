@@ -18,7 +18,14 @@ public class EnemyManager : MonoBehaviour //Eventually make an AbstractManager t
     {
         if (enemies.Count <= 0 && !levelOver)
         {
-            trapdoor.isOpen = true;
+            for (int i = 0; i < trapdoor.openFlags.Count; i++)
+            {
+                if (!trapdoor.openFlags[i])
+                {
+                    trapdoor.openFlags[i] = true;
+                    break;
+                }
+            }
             levelOver = true;
         }
     }
