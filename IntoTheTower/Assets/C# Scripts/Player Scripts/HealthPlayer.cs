@@ -1,9 +1,11 @@
+using TMPro;
 using UnityEngine;
 
 public class HealthPlayer: MonoBehaviour
 {
     public GameObject healthbar; //Healthbar of player, will be replaced by parent objects
-    public GameObject gameover; //gameover text, will eventaully be a canvas to restart or go to menu scene - TO DO
+    public GameObject gameover;
+    public TextMeshProUGUI outcome;
     public int playerHealth; //Health of the player
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -29,9 +31,9 @@ public class HealthPlayer: MonoBehaviour
         }
         else if (playerHealth == 0)
         {
-            MovePlayer player = gameObject.GetComponent<MovePlayer>();
-            player.canMove = false;
-            gameover.gameObject.SetActive(true);
+            Time.timeScale = 0f;
+            outcome.text = "You died!";
+            gameover.SetActive(true);
         }
     }
 

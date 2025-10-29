@@ -8,6 +8,7 @@ public class TrapdoorBehavior : MonoBehaviour
     public List<bool> openFlags = new List<bool>();
     public LevelChange levelManager;
     public int numReqs;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

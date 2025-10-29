@@ -2,20 +2,35 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using TMPro;
 using UnityEngine;
 
 public class LevelChange : MonoBehaviour
 {
     public GameObject player; //Player in scene
-    public GameObject endGameScreen; //Temporary, will eventually be a cutscene or some sort of different scene - TO DO
+    public GameObject endGameScreen;
+    public TextMeshProUGUI winText;
 
     private List<Vector2> levelCoord; // List of all levelCoords based off of what the player has chosen
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start() // To add if statements so it can be combat or puzzle or both - TO DO
+    void Start() 
     {
+        string selectedMode = GameMode.chosenMode;
         levelCoord = new List<Vector2>();
-        CreateCoord("LevelCoordCombat");
-        CreateCoord("LevelCoordPuzzle");
+        if (selectedMode == "Both")
+        {
+            CreateCoord("LevelCoordPuzzle");
+            CreateCoord("LevelCoordCombat");
+        }
+        else if (selectedMode == "Combat")
+        {
+            CreateCoord("LevelCoordCombat");
+        }
+        else if (selectedMode == "Puzzle")
+        {
+            CreateCoord("LevelCoordPuzzle");
+
+        }
         GetNextLevel();
     }
 
@@ -59,8 +74,8 @@ public class LevelChange : MonoBehaviour
         else
         {
             endGameScreen.SetActive(true);
-            MovePlayer move = player.GetComponent<MovePlayer>();
-            move.canMove = false;
+            winText.text = "You've reached the bottom of the tower!";
+            Time.timeScale = 0f;
         }
     }
 }

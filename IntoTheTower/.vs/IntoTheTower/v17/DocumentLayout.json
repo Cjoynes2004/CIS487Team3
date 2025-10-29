@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\misc scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\misc scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|c:\\users\\cjoyn\\cis487team3\\intothetower\\assets\\c# scripts\\level scripts\\levelchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\level scripts\\levelchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\player scripts\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\player scripts\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|c:\\users\\cjoyn\\cis487team3\\intothetower\\assets\\c# scripts\\misc scripts\\openmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\misc scripts\\openmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\misc scripts\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\misc scripts\\gamemode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\player scripts\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\player scripts\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\SceneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\C# Scripts\\Level Scripts\\SceneManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\enemy scripts\\bossenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\enemy scripts\\bossenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\puzzle scripts\\movingboxcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\puzzle scripts\\movingboxcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,27 +43,19 @@
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\enemy scripts\\abstractenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\player scripts\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\player scripts\\moveplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|c:\\users\\cjoyn\\cis487team3\\intothetower\\assets\\c# scripts\\enemy scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\enemy scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\enemy scripts\\enemybullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|c:\\users\\cjoyn\\cis487team3\\intothetower\\assets\\c# scripts\\enemy scripts\\longrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\enemy scripts\\longrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\enemy scripts\\longrange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|c:\\users\\cjoyn\\cis487team3\\intothetower\\assets\\c# scripts\\player scripts\\playerbullets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\player scripts\\playerbullets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\player scripts\\playerbullets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|c:\\users\\cjoyn\\cis487team3\\intothetower\\assets\\c# scripts\\enemy scripts\\bossenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\enemy scripts\\bossenemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|c:\\users\\cjoyn\\cis487team3\\intothetower\\assets\\c# scripts\\enemy scripts\\closerange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\enemy scripts\\closerange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\enemy scripts\\closerange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,10 +87,6 @@
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\resources\\levelcoordcombat.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\misc scripts\\exitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\misc scripts\\exitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\puzzle scripts\\matchcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\puzzle scripts\\matchcolors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -79,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\enemy scripts\\enemymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\player scripts\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\player scripts\\healthplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\misc scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\misc scripts\\soundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -91,8 +107,12 @@
       "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\misc scripts\\musicmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\level scripts\\levelchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E5ED1C9-EABD-7230-49E5-0CCEA74A4F9D}|Assembly-CSharp.csproj|solutionrelative:assets\\c# scripts\\level scripts\\levelchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\SceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\C# Scripts\\Level Scripts\\SceneLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\assets\\c# scripts\\misc scripts\\exitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\c# scripts\\misc scripts\\exitgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +122,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,32 +131,44 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "EnemyBullet.cs",
-              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\EnemyBullet.cs",
-              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Enemy Scripts\\EnemyBullet.cs",
-              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\EnemyBullet.cs",
-              "RelativeToolTip": "Assets\\C# Scripts\\Enemy Scripts\\EnemyBullet.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABQAAAAAAAAAA==",
+              "Title": "OpenMenu.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\OpenMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Misc Scripts\\OpenMenu.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\OpenMenu.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Misc Scripts\\OpenMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T04:39:02.981Z",
+              "WhenOpened": "2025-10-29T20:08:39.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerBullets.cs",
-              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\PlayerBullets.cs",
-              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Player Scripts\\PlayerBullets.cs",
-              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\PlayerBullets.cs",
-              "RelativeToolTip": "Assets\\C# Scripts\\Player Scripts\\PlayerBullets.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "SceneLoader.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\SceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Misc Scripts\\SceneLoader.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\SceneLoader.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Misc Scripts\\SceneLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T03:07:31.92Z",
+              "WhenOpened": "2025-10-29T19:23:15.302Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 27,
+              "Title": "ExitGame.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\ExitGame.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Misc Scripts\\ExitGame.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\ExitGame.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Misc Scripts\\ExitGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T03:15:20.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "buttonScript.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Puzzle Scripts\\buttonScript.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Puzzle Scripts\\buttonScript.cs",
@@ -148,33 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "movingBoxCollision.cs",
-              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Puzzle Scripts\\movingBoxCollision.cs",
-              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Puzzle Scripts\\movingBoxCollision.cs",
-              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Puzzle Scripts\\movingBoxCollision.cs",
-              "RelativeToolTip": "Assets\\C# Scripts\\Puzzle Scripts\\movingBoxCollision.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowBgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T18:38:02.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MovePlayer.cs",
-              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\MovePlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Player Scripts\\MovePlayer.cs",
-              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\MovePlayer.cs",
-              "RelativeToolTip": "Assets\\C# Scripts\\Player Scripts\\MovePlayer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T03:06:40.996Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "AbstractEnemy.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\AbstractEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Enemy Scripts\\AbstractEnemy.cs",
@@ -182,12 +188,11 @@
               "RelativeToolTip": "Assets\\C# Scripts\\Enemy Scripts\\AbstractEnemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T02:26:49.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T02:26:49.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "CloseRange.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\CloseRange.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Enemy Scripts\\CloseRange.cs",
@@ -195,12 +200,11 @@
               "RelativeToolTip": "Assets\\C# Scripts\\Enemy Scripts\\CloseRange.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAmwCAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T04:39:40.84Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T04:39:40.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "LongRange.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\LongRange.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Enemy Scripts\\LongRange.cs",
@@ -208,25 +212,23 @@
               "RelativeToolTip": "Assets\\C# Scripts\\Enemy Scripts\\LongRange.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAkwEQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T04:58:56.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T04:58:56.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "BossEnemy.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\BossEnemy.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Enemy Scripts\\BossEnemy.cs",
               "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\BossEnemy.cs",
               "RelativeToolTip": "Assets\\C# Scripts\\Enemy Scripts\\BossEnemy.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwDgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T05:05:51.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T05:05:51.456Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "ColorManager.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Puzzle Scripts\\ColorManager.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Puzzle Scripts\\ColorManager.cs",
@@ -238,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "PlayerShoot.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\PlayerShoot.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Player Scripts\\PlayerShoot.cs",
@@ -250,7 +252,69 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "HealthPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\HealthPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Player Scripts\\HealthPlayer.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\HealthPlayer.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Player Scripts\\HealthPlayer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T02:51:39.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LevelChange.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\LevelChange.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Level Scripts\\LevelChange.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\LevelChange.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Level Scripts\\LevelChange.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwEwAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T22:06:14.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MovePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\MovePlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Player Scripts\\MovePlayer.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\MovePlayer.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Player Scripts\\MovePlayer.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwAYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T03:06:40.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameMode.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\GameMode.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Misc Scripts\\GameMode.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\GameMode.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Misc Scripts\\GameMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:28:34.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "movingBoxCollision.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Puzzle Scripts\\movingBoxCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Puzzle Scripts\\movingBoxCollision.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Puzzle Scripts\\movingBoxCollision.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Puzzle Scripts\\movingBoxCollision.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowBgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T18:38:02.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "EventSystem.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Library\\PackageCache\\com.unity.ugui@e375ff18e90f\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@e375ff18e90f\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
@@ -258,11 +322,12 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.ugui@e375ff18e90f\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
               "ViewState": "AgIAAL8BAAAAAAAAAAAowNcBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T19:21:03.441Z"
+              "WhenOpened": "2025-10-27T19:21:03.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "ReflectSurface.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Puzzle Scripts\\ReflectSurface.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Puzzle Scripts\\ReflectSurface.cs",
@@ -274,7 +339,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
+              "Title": "PlayerBullets.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\PlayerBullets.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Player Scripts\\PlayerBullets.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\PlayerBullets.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Player Scripts\\PlayerBullets.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T03:07:31.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnemyBullet.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\EnemyBullet.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Enemy Scripts\\EnemyBullet.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\EnemyBullet.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Enemy Scripts\\EnemyBullet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T04:39:02.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SceneManager.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\SceneManager.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Level Scripts\\SceneManager.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\SceneManager.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Level Scripts\\SceneManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:14:08.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SceneLoader.cs",
+              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\SceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Level Scripts\\SceneLoader.cs",
+              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\SceneLoader.cs",
+              "RelativeToolTip": "Assets\\C# Scripts\\Level Scripts\\SceneLoader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T19:14:48.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "LevelCoordPuzzle.txt",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\Resources\\LevelCoordPuzzle.txt",
               "RelativeDocumentMoniker": "Assets\\Resources\\LevelCoordPuzzle.txt",
@@ -286,19 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ExitGame.cs",
-              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\ExitGame.cs",
-              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Misc Scripts\\ExitGame.cs",
-              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\ExitGame.cs",
-              "RelativeToolTip": "Assets\\C# Scripts\\Misc Scripts\\ExitGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T03:15:20.753Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "LevelCoordCombat.txt",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\Resources\\LevelCoordCombat.txt",
               "RelativeDocumentMoniker": "Assets\\Resources\\LevelCoordCombat.txt",
@@ -310,19 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "HealthPlayer.cs",
-              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\HealthPlayer.cs",
-              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Player Scripts\\HealthPlayer.cs",
-              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Player Scripts\\HealthPlayer.cs",
-              "RelativeToolTip": "Assets\\C# Scripts\\Player Scripts\\HealthPlayer.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAYAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-10T02:51:39.243Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "BounceOffWalls.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\BounceOffWalls.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Enemy Scripts\\BounceOffWalls.cs",
@@ -334,7 +423,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "MatchColors.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Puzzle Scripts\\MatchColors.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Puzzle Scripts\\MatchColors.cs",
@@ -346,7 +435,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "SoundManager.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\SoundManager.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Misc Scripts\\SoundManager.cs",
@@ -358,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Misc Scripts\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Misc Scripts\\MusicManager.cs",
@@ -370,19 +459,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "LevelChange.cs",
-              "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\LevelChange.cs",
-              "RelativeDocumentMoniker": "Assets\\C# Scripts\\Level Scripts\\LevelChange.cs",
-              "ToolTip": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Level Scripts\\LevelChange.cs",
-              "RelativeToolTip": "Assets\\C# Scripts\\Level Scripts\\LevelChange.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-07T22:06:14.744Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "EnemyManager.cs",
               "DocumentMoniker": "C:\\Users\\cjoyn\\CIS487Team3\\IntoTheTower\\Assets\\C# Scripts\\Enemy Scripts\\EnemyManager.cs",
               "RelativeDocumentMoniker": "Assets\\C# Scripts\\Enemy Scripts\\EnemyManager.cs",
