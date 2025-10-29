@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: 03fe700c6cba1a34ebdfe3e13febb40b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5156657253995223786
+    second: playersprites_1_Flip_0
+  - first:
+      213: -5595059143484554570
+    second: playersprites_1_Flip_1
+  - first:
+      213: 8884115884927057982
+    second: playersprites_1_Flip_2
+  - first:
+      213: 3249388782943977344
+    second: playersprites_1_Flip_3
+  - first:
+      213: -7579610609004314452
+    second: playersprites_1_Flip_4
+  - first:
+      213: 4277373896724027148
+    second: playersprites_1_Flip_5
+  - first:
+      213: -8051777721853219894
+    second: playersprites_1_Flip_6
+  - first:
+      213: -365242003530068172
+    second: playersprites_1_Flip_7
+  - first:
+      213: 5063889009897501387
+    second: playersprites_1_Flip_8
+  - first:
+      213: -3883370875584337747
+    second: playersprites_1_Flip_9
+  - first:
+      213: 193962299911071704
+    second: playersprites_1_Flip_10
+  - first:
+      213: -2677187997841743196
+    second: playersprites_1_Flip_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 290
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playersprites_1_Flip_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1410
+        width: 394
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6156c237c8fdf68b0800000000000000
+      internalID: -5156657253995223786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_1
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1408
+        width: 393
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b24d475a5b5a52b0800000000000000
+      internalID: -5595059143484554570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_2
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 1423
+        width: 394
+        height: 591
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e308b78c358ba4b70800000000000000
+      internalID: 8884115884927057982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_3
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1425
+        width: 394
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fb380d1e5281d20800000000000000
+      internalID: 3249388782943977344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 729
+        width: 381
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca004824f40dfc690800000000000000
+      internalID: -7579610609004314452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_5
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 722
+        width: 296
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0793c585e84c5b30800000000000000
+      internalID: 4277373896724027148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_6
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 711
+        width: 415
+        height: 627
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbe88672d6524090800000000000000
+      internalID: -8051777721853219894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_7
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 734
+        width: 296
+        height: 619
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fc98a35566eeaf0800000000000000
+      internalID: -365242003530068172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_8
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 23
+        width: 306
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2f1f0993c864640800000000000000
+      internalID: 5063889009897501387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_9
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 32
+        width: 306
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8a2bd73ce7b1ac0800000000000000
+      internalID: -3883370875584337747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_10
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 28
+        width: 306
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d764022fa711b200800000000000000
+      internalID: 193962299911071704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playersprites_1_Flip_11
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 29
+        width: 306
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a224b743b7b8dad0800000000000000
+      internalID: -2677187997841743196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      playersprites_1_Flip_0: -5156657253995223786
+      playersprites_1_Flip_1: -5595059143484554570
+      playersprites_1_Flip_10: 193962299911071704
+      playersprites_1_Flip_11: -2677187997841743196
+      playersprites_1_Flip_2: 8884115884927057982
+      playersprites_1_Flip_3: 3249388782943977344
+      playersprites_1_Flip_4: -7579610609004314452
+      playersprites_1_Flip_5: 4277373896724027148
+      playersprites_1_Flip_6: -8051777721853219894
+      playersprites_1_Flip_7: -365242003530068172
+      playersprites_1_Flip_8: 5063889009897501387
+      playersprites_1_Flip_9: -3883370875584337747
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
