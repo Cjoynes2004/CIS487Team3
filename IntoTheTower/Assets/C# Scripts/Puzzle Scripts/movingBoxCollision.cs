@@ -40,15 +40,6 @@ public class movingBoxCollision : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-        // Allow movement again once the player backs off
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            moveDirection = Vector2.zero;
-        }
-    }
-
     public void Push(Vector2 pushDirection)
     {
         if (!isSliding)
