@@ -7,6 +7,8 @@ TagManager:
   - Green
   - Healthbar
   - Yellow
+  - Red
+  - Blue
   layers:
   - Default
   - TransparentFX

@@ -34,4 +34,15 @@ public class MovePlayer : MonoBehaviour
             }
         }
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        movingBoxCollision box = collision.gameObject.GetComponent<movingBoxCollision>();
+        if (box != null)
+        {
+            // Determine push direction based on player to box
+            Vector2 pushDir = (box.transform.position - transform.position).normalized;
+            box.Push(pushDir);
+        }
+    }
 }
