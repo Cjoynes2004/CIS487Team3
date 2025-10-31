@@ -7353,6 +7353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::buttonScript
   trapdoor: {fileID: 751610458}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
   resetBox: {fileID: 1405416560}
 --- !u!1 &559270993
 GameObject:
@@ -7718,6 +7719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyManager
   enemies: []
   trapdoor: {fileID: 355402082}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
 --- !u!1 &577020098
 GameObject:
   m_ObjectHideFlags: 0
@@ -8891,6 +8893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerBullets
   chainShotLength: 4
   reflectTrapdoor: {fileID: 262892243}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
 --- !u!1 &641670521
 GameObject:
   m_ObjectHideFlags: 0
@@ -13197,6 +13200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyManager
   enemies: []
   trapdoor: {fileID: 809978002}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
 --- !u!212 &991564145
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -14151,6 +14155,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ColorManager
   colors: []
   trapdoor: {fileID: 694001221}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
 --- !u!1 &1100113394
 GameObject:
   m_ObjectHideFlags: 0
@@ -16326,6 +16331,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyManager
   enemies: []
   trapdoor: {fileID: 235674281}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
 --- !u!212 &1241909171
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -18589,6 +18595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::buttonScript
   trapdoor: {fileID: 694001221}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
   resetBox: {fileID: 1606395823}
 --- !u!58 &1392554053
 CircleCollider2D:
@@ -20438,6 +20445,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyManager
   enemies: []
   trapdoor: {fileID: 1253751721}
+  openTrapdoorSprite: {fileID: 0}
 --- !u!212 &1471559349
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20767,6 +20775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyManager
   enemies: []
   trapdoor: {fileID: 1857742575}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
 --- !u!1 &1486351499
 GameObject:
   m_ObjectHideFlags: 0
@@ -21873,7 +21882,7 @@ SpriteRenderer:
   m_SortingLayerID: 1080173413
   m_SortingLayer: -1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 1775187175044650136, guid: 6047401ca967d3c49a2b33775414a25f, type: 3}
+  m_Sprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -21952,7 +21961,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0661539, y: 0.95}
+    oldSize: {x: 1.0769231, y: 0.90615386}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -22522,6 +22531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ColorManager
   colors: []
   trapdoor: {fileID: 789308820}
+  openTrapdoorSprite: {fileID: -2325807861227394506, guid: 3e2785e952893e24ebaca81ef64974b4, type: 3}
 --- !u!1 &1591620794
 GameObject:
   m_ObjectHideFlags: 0

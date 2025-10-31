@@ -1,4 +1,4 @@
-Controls: WASD or Arrow keys to move character, mouse to aim and left click to shoot, ESC key exits out of the game.
+Controls: WASD or Arrow keys to move character, mouse to aim and left click to shoot, ESC key pauses the game.
 
 Goal: Defeat all enemies in combat room, solve puzzle of puzzle room.
 
@@ -11,3 +11,5 @@ Are there any moments as you played where you had confusion on what to do in reg
 Is the game balanced enough in regards to the combat being a bullet hell, and the puzzles being intuitive and completable with sufficient effort?
 
 Any parts of the game that required more visual or further direct guidance?
+
+HINT: If you are struggling to think outside the "box", try to push some "buttons"

@@ -6,11 +6,14 @@ public class EnemyManager : MonoBehaviour //Eventually make an AbstractManager t
 {
     public List<AbstractEnemy> enemies = new List<AbstractEnemy>(); //List of enemies in room
     public TrapdoorBehavior trapdoor;
+    public Sprite openTrapdoorSprite;
+
+    private SpriteRenderer trapdoorRender;
     private bool levelOver = false; // Turns true when room is over
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        trapdoorRender = trapdoor.gameObject.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame, checks if all enemies are dead
@@ -23,10 +26,15 @@ public class EnemyManager : MonoBehaviour //Eventually make an AbstractManager t
                 if (!trapdoor.openFlags[i])
                 {
                     trapdoor.openFlags[i] = true;
+                    if (i == trapdoor.openFlags.Count - 1)
+                    {
+                        trapdoorRender.sprite = openTrapdoorSprite;
+                    }
                     break;
                 }
             }
             levelOver = true;
+            trapdoorRender.sprite = openTrapdoorSprite;
         }
     }
 

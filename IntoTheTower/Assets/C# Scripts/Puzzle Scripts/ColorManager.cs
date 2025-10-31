@@ -5,12 +5,14 @@ public class ColorManager : MonoBehaviour //Eventually make an AbstractManager t
 {
     public List<MatchColors> colors = new List<MatchColors>(); //List of colors that will be matched
     public TrapdoorBehavior trapdoor; //Trapdoor for this room
+    public Sprite openTrapdoorSprite;
 
+    private SpriteRenderer doorRender;
     private bool levelOver = false; // Returns true when room is over.
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        doorRender = trapdoor.gameObject.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -23,6 +25,10 @@ public class ColorManager : MonoBehaviour //Eventually make an AbstractManager t
                 if (!trapdoor.openFlags[i])
                 {
                     trapdoor.openFlags[i] = true;
+                    if (i == trapdoor.openFlags.Count - 1)
+                    {
+                        doorRender.sprite = openTrapdoorSprite;
+                    }
                     break;
                 }
             }

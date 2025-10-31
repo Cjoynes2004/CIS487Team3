@@ -5,10 +5,12 @@ public class PlayerBullets : MonoBehaviour
 {
     public int chainShotLength;
     public TrapdoorBehavior reflectTrapdoor;
+    public Sprite openTrapdoorSprite;
 
     private bool[] chainShot;
     private Rigidbody2D rb;
     private SpriteRenderer sprite;
+    private SpriteRenderer doorRender;
     private bool bounceRegistered = false;
 
 
@@ -17,6 +19,7 @@ public class PlayerBullets : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         chainShot = new bool[chainShotLength];
         sprite = GetComponent<SpriteRenderer>();
+        doorRender = reflectTrapdoor.GetComponent<SpriteRenderer>();
     }
     //Damages enemy on collisin and erases bullet regardless
     private void OnCollisionEnter2D(Collision2D collision)
@@ -50,6 +53,10 @@ public class PlayerBullets : MonoBehaviour
                             if (!reflectTrapdoor.openFlags[y])
                             {
                                 reflectTrapdoor.openFlags[y] = true;
+                                if (y == reflectTrapdoor.openFlags.Count - 1)
+                                {
+                                    doorRender.sprite = openTrapdoorSprite;
+                                }
                                 break;
                             }
                         }

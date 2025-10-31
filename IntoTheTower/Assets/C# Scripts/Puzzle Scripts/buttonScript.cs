@@ -3,9 +3,11 @@ using UnityEngine;
 public class buttonScript : MonoBehaviour
 {
     public TrapdoorBehavior trapdoor;
+    public Sprite openTrapdoorSprite;
     public GameObject resetBox;
 
     private SpriteRenderer spriteRenderer;
+    private SpriteRenderer doorRender;
     private float initX;
     private float initY;
     private Quaternion initRotation;
@@ -15,6 +17,7 @@ public class buttonScript : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         initX = resetBox.transform.position.x;
         initY = resetBox.transform.position.y;
+        doorRender = trapdoor.gameObject.GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -36,6 +39,10 @@ public class buttonScript : MonoBehaviour
                 if (!trapdoor.openFlags[i])
                 {
                     trapdoor.openFlags[i] = true;
+                    if (i == trapdoor.openFlags.Count - 1)
+                    {
+                        doorRender.sprite = openTrapdoorSprite;
+                    }
                     break;
                 }
             }
